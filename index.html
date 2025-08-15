@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Background</title>
+  <style>
+    html, body {
+    height: 100%; /* Ensures html and body take full viewport height */
+    margin: 0;
+    padding: 2px; /* Removes default browser margin */
+    overflow: hidden; /* Prevents scrollbars if content overflows slightly */
+}
+
+.fullscreen-bg {
+    width: 100vw; /* Will take up 80% of its parent's width */
+        /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    background-image: url("back\ \(1\).jpg"); /* Path to your background image */
+    /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Scales the image to cover the entire div while maintaining aspect ratio */
+}
+  </style>
+</head>
+<body>
+    <div class="fullscreen-bg">
+        <img src="yyyyyyy (1).png" style="width: 30%; margin: 100px auto 0 auto; padding: 0px 35vw;"/>
+        <img src="text (1).jpg" style="width: 40%; margin: 10px auto 0 auto; padding: 0px 30vw;"/>
+        <div style="margin: 5px auto; width: 50%;" >
+           <a style="width: 100%;">
+            <img src="whatsbot (1).jpg" style="width: 100%;">
+           </a>
+        </div>
+        <!-- Optional content can go here -->
+    </div>
+</body>
+</html>
